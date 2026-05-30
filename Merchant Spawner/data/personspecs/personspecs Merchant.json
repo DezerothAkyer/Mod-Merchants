@@ -1,0 +1,29 @@
+[
+ // The Intake Merchant's 'special stuff'
+  {
+    "strName" : "OKLGIntakeMerchant",
+    "strFirstName" : "",
+    "strLastName" : "",
+    "strGender" : "",
+    "strCareerNow" : "IntakeMerchant",
+    "strHomeworldFind" : "OKLG",
+    "strHomeworldSet" : "HW_OKLG",
+    "strStrata" : "",
+    "strLootConds" : "CONDTraderNPC",
+    "strLoot"    : "ItmIntakeMerchantStartLoot",
+    "strCT" : "TIsIntakeMerchant",
+    "strRelSet" : "",
+    "strCTRelFind" : "",
+    "nAgeRangeBelow" : -1,
+    "nAgeRangeAbove" : -1,
+    "bAlive" : true,
+    "aGPMSets" : 
+    [
+        "Trader", "TraderKioskIntakeShop"
+    ],
+    "strLootIAAdds" : "PSPIAAddNPCTraderKioskIntakeShop",
+    "aFactionAdds" : 
+    [
+    ]
+  }
+]

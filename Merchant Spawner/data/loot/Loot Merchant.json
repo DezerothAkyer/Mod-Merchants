@@ -1,0 +1,117 @@
+[
+
+
+  { "strName" : "CONDTraderDiscountBuyKioskIntakeShop", "aCOs" : [ "DiscountBuy=1.0x.2-.4" ], "aLoots" : [], "strType" : "condition" },
+  { "strName" : "CONDTraderDiscountSellKioskIntakeShop", "aCOs" : [ "DiscountSell=1.0x4-4.6" ], "aLoots" : [], "strType" : "condition" },
+
+  { "strName" : "TraderCTsBuyKioskIntakeShop", "aCOs" : [ "TIsBarterKioskIntakeShop=1.0x1" ], "aLoots" : [], "strType" : "trigger" },
+  { "strName" : "TraderCTsSellKioskIntakeShop", "aCOs" : [ "TIsBarterKioskIntakeShop=1.0x1" ], "aLoots" : [], "strType" : "trigger" },
+  
+  {
+    "strName" : "CGCareerIntakeMerchant",
+    "aCOs"    : [
+      "IsNotTrafficAI=1.0x1",
+      "IsReadyRestock=1.0x1",
+      "IsTraderNPC=1.0x1",
+      "IsUnhirable=1.0x1",
+      "CareerIntakeMerchant=1.0x1"
+    ],
+    "aLoots"  : [
+      "ItmBackpackTrader=1.0x1"
+    ],
+    "strType" : "condition"
+  },
+  {
+    "strName" : "CGCareerIntakeMerchantNext",
+    "aCOs"    : [
+      "IsNotTrafficAI=1.0x1",
+      "IsReadyRestock=1.0x1",
+      "IsTraderNPC=1.0x1",
+      "IsUnhirable=1.0x1",
+      "CareerIntakeMerchant=1.0x1"
+    ],
+    "aLoots"  : [
+    ],
+    "strType" : "condition"
+  },
+
+  {
+    "strName" : "ItmIntakeMerchantStartLoot",
+    "aCOs"    : [
+    ],
+    "aLoots"  : [
+      "ItmCrewSlots=1.0x1",
+      "ItmBackpackTrader=1.0x1",
+      "ItmWristPDA01LockedUsed=1.0x1",
+      "ItmRandomOutfit=1.0x1",
+      "ItmWeaponPistolEnergy01New=1.0x1",
+      "ItmRandomTrenchersOriginal=0.75x1-2",
+      "ItmRandomDrinkNew=1x1"
+    ],
+    "strType" : "item"
+  },
+    {
+    "strName" : "CGEncIntakeMerchantEvent",
+    "aCOs"    : [
+      "CGEncContactAdult=0.15x1|CGEncFramedCaught=0.1x1|CGEncManslaughter=0.1x1|CGEncFriendAdult=0.05x1|CGEncInjury=0.05x1|CGEncUprooted=0.05x1"
+    ],
+    "aLoots"  : [
+    ],
+    "strType" : "lifeevent"
+  },
+
+    { "strName" : "TraderCTsBuyIntakeMerchant", "aCOs" : [ "TIsBarterKioskIntakeShop=1.0x1" ], "aLoots" : [], "strType" : "trigger" },
+  { "strName" : "TraderCTsSellIntakeMerchant", "aCOs" : [ "TIsBarterKioskIntakeShop=1.0x1" ], "aLoots" : [], "strType" : "trigger" },
+
+
+    {
+    "strName" : "PSPIAAddNPCIntakeMerchant",
+    "aCOs"    : [
+      "PSPIntakeMerchantAdd=1.0x1"
+    ],
+    "aLoots"  : [
+      "PSPIAAddNPCBasic=1.0x1"
+    ],
+    "strType" : "interaction"
+  },
+
+  { "strName" : "CONDGainFundsCareerIntakeMerchant", "aCOs" : [ "StatUSD=1.0x1000-5000" ], "aLoots"  : [ ], "strType" : "condition" },
+
+
+  {
+    "strName" : "ItmKioskIntakeShopInv",
+    "aCOs"    : [
+    ],
+    "aLoots"  : [
+
+      "ItmRCSDistro01DmgLoose=1.0x0-2",
+
+      "ItmRCSDistro02DmgLoose=1.0x1-2",
+      
+      "ItmRCSDistro03DmgLoose=1.0x1-2",
+
+      "ItmRCSDistro05DmgLoose=1.0x1-2",
+
+      "ItmRCSDistro06DmgLoose=1.0x1-2",
+
+      "ItmRCSDistro07DmgLoose=1.0x1-2",
+
+      "ItmRCSDistro08DmgLoose=1.0x1-2",
+
+      "ItmRCSDistro09DmgLoose=1.0x1-2",
+
+      "ItmRCSDistro10DmgLoose=1.0x1-2",
+
+      "ItmRCSDistro11DmgLoose=1.0x1-2",
+
+      "ItmRCSDistro12DmgLoose=1.0x1-2",
+
+      "ItmRCSDistro13DmgLoose=1.0x1-2",
+
+      "ItmRCSDistro04DmgLoose=1.0x1-2"
+    ],
+    "strType" : "item"
+  }
+
+
+]

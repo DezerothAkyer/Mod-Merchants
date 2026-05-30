@@ -1,0 +1,61 @@
+[
+  {
+    "strName" : "ItmBackpackTrader",
+    "strNameShort" : "Goods",
+    "strNameFriendly" : "Trader Inventory",
+    "strDesc" : "A pack filled to the brim with magazines showing off the various wares of the merchant. As everything within the backpack is merely an abstraction of the Merchant's goods, they naturally aren't available.",
+    "strItemDef" : "ItmBackpackTrader",
+    "strType"    : "Item",
+    "strLoot"    : "ItmTraderBackpack_SM",
+    "strContainerCT"    : "TIsFitDolly02",
+    "nContainerHeight"   : 30,
+    "nContainerWidth"   : 30,
+    "aInteractions" : [
+      "EquipItem",
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds" : [
+      "IsTradeInventory=1.0x1",
+      "IsLocked=1.0x1.0",
+      "IsBurnable=1.0x1.0",
+      "IsContainer=1.0x1",
+      "IsCushion=1.0x1.0",
+      "IsBackpack=1.0x1.0",
+      "IsFlexible=1.0x1.0",
+      "IsSheet=1.0x1.0",
+      "IsTempInsulator=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatMass=1.0x1.1",
+      "StatBasePrice=1.0x3151.0",
+      "StatDamageMax=1.0x6",
+      "StatDismantleProgressMax=1.0x30",
+      "IsCategoryMobileStorage=1.0x1.0"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+    ],
+    "aSlotsWeHave" : [
+    ],
+    "mapChargeProfiles"  : [
+      "Melee","MeleeAttackDefaultFragile"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTClothesDestroy,StatDamageMax,1.0"
+    ],
+    "mapGUIPropMaps"  : null,
+    "strPortraitImg"  : "paperdoll/ItmBackpackTRDMed",
+    "strAudioEmitter" : "ItmBackpackSound",
+    "mapSlotEffects" : [
+      "back", "BackpackTRDFull",
+      "heldL", "HeldBackpackTRDFull",
+      "heldR", "HeldBackpackTRDFull",
+      "drag", "BackpackTRDFull"
+    ],
+	"mapAltItemDefs"  : [
+	"IsSolid","ItmBackpackTraderFull"
+	],
+    "jsonPI" : null
+  }
+]

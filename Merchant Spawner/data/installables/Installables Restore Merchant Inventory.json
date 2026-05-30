@@ -1,0 +1,5 @@
+[
+    { "strName" : "ItmBackpackV00Undamage", "strActionCO" : "ItmBackpackTrader", "strActionGroup" : "Work", "strTooltip" : "Reduces item's wear and tear to prevent damage.",  "strInteractionTemplate" : "ACTUndamageTEMP", "CTThem" :  "TIsUndamageableNotContained" , "aInputs" : [  ], "fTargetPointRange" : 2.0, "fDuration" : 0.001, "bSparks" : true, "aToolCTsUse" : ["TIsToolMortorq", "TIsToolWelding" ], "aLootCOs" : [ "ItmBackpackTrader" ], "strJobType" : "repair", "strAllowLootCTsThem" : "CONDUndamageProgress", "strProgressStat" : "StatDamage", "strCTThemMultCondTools" : "IsToolMortorq", "strCTThemMultCondUs" : "StatInstallRateFURN" }
+
+
+]

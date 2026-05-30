@@ -1,0 +1,18 @@
+
+[
+  {
+    "strName" : "CGEncShipbreakerSaveMoney",
+    "strTitle" : "Save Some Money.",
+    "strDesc" : "Shipbreaking is a nearly impossible grind, but you know with enough discipline you can leave each month with a little extra cash socked away. So you cut back on your drinking, swap a few kiosk meals for Trenchers chow, even take an extra shift here and there.\n\nIt's not much, but by the end of the year, you've got something that's beginning to resemble a nest egg.\n\n",
+    "aInverse"          : [
+    ],
+    "bRandomInverse"    : true,
+    "fDuration"         : 0.0,
+    "strThemType"       : "Self",
+    "LootCondsUs"         : null,
+        "aSocialNew" : [
+      "OKLGIntakeMerchant"
+    ],
+    "LootCTsUs"         : "CGEncShipbreakerSaveMoney"
+  }
+]

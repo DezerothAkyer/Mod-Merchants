@@ -1,0 +1,10 @@
+[
+
+  { "strName" : "ItmTraderBackpack_SM", "aCOs"    : [], "aLoots"  : [], "strType" : "item" },
+  { "strName" : "ItmTraderBackpack_LG", "aCOs"    : [], "aLoots"  : [], "strType" : "item" },
+  { "strName" : "ItmTraderPouch_SM", "aCOs"    : [], "aLoots"  : [], "strType" : "item" },
+  
+  
+  { "strName" : "ItmBackpackTrader", "aCOs"    : [ "ItmBackpackTrader=1.0x1" ], "aLoots"  : [ ], "strType" : "item" }
+
+]

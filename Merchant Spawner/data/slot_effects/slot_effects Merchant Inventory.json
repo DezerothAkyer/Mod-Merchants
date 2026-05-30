@@ -1,0 +1,35 @@
+[
+  {
+    "strName" : "BackpackTRDFull",
+    "strSlotImage" : "paperdoll/ItmBackpackTRDMed",
+    "strSlotImageUnder" : null,
+    "strIASlot" : null,
+    "strIAUnslot" : null,
+    "strIASlotParents" : null,
+    "strIAUnslotParents" : null,
+    "mapMeshTextures" : [
+    ]
+  },
+  {
+    "strName" : "HeldBackpackTRDFullL",
+    "strSlotImage" : "paperdoll/ItmBackpackTRDMed",
+    "strSlotImageUnder" : null,
+    "strIASlot" : null,
+    "strIAUnslot" : null,
+    "strIASlotParents" : "SLOTWieldDefaultL",
+    "strIAUnslotParents" : "UNSLOTWieldDefaultL",
+    "mapMeshTextures" : [
+    ]
+  },
+  {
+    "strName" : "HeldBackpackTRDFullR",
+    "strSlotImage" : "paperdoll/ItmBackpackTRDMed",
+    "strSlotImageUnder" : null,
+    "strIASlot" : null,
+    "strIAUnslot" : null,
+    "strIASlotParents" : "SLOTWieldDefaultR",
+    "strIAUnslotParents" : "UNSLOTWieldDefaultR",
+    "mapMeshTextures" : [
+    ]
+  }
+]

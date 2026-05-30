@@ -1,0 +1,8 @@
+[
+  {
+    "strName" : "TradeInventory Simple Conditions",
+    "aValues" : [
+      "IsTradeInventory","TradeInventory","[us] is a trader's inventory.","2","2","Neutral","false"
+    ]
+  }
+]
